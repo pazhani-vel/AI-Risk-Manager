@@ -1,0 +1,111 @@
+{
+  "model_name": "Model A \u2014 Transaction Chargeback Risk Prediction",
+  "algorithm": "Logistic Regression",
+  "version": "v1.0.0",
+  "training_date": "2026-08-30T15:17:55.478881+00:00",
+  "dataset_path": "dataset\\model_a_dataset.csv",
+  "total_samples": 50000,
+  "train_samples": 35000,
+  "val_samples": 7500,
+  "test_samples": 7500,
+  "features": {
+    "numerical": [
+      "account_age_days",
+      "total_orders",
+      "successful_orders",
+      "cancelled_orders",
+      "previous_returns",
+      "previous_refunds",
+      "previous_chargebacks",
+      "customer_chargeback_rate",
+      "customer_return_rate",
+      "average_order_value",
+      "transaction_amount",
+      "transaction_hour",
+      "is_international",
+      "orders_last_24h",
+      "amount_vs_customer_avg",
+      "device_age_days",
+      "multiple_accounts_same_device",
+      "ip_country_match",
+      "billing_shipping_match",
+      "login_after_purchase",
+      "product_shipped",
+      "delivery_confirmed",
+      "otp_verified",
+      "tracking_available"
+    ],
+    "categorical": [
+      "payment_method"
+    ],
+    "all_features": [
+      "account_age_days",
+      "total_orders",
+      "successful_orders",
+      "cancelled_orders",
+      "previous_returns",
+      "previous_refunds",
+      "previous_chargebacks",
+      "customer_chargeback_rate",
+      "customer_return_rate",
+      "average_order_value",
+      "transaction_amount",
+      "transaction_hour",
+      "is_international",
+      "orders_last_24h",
+      "amount_vs_customer_avg",
+      "device_age_days",
+      "multiple_accounts_same_device",
+      "ip_country_match",
+      "billing_shipping_match",
+      "login_after_purchase",
+      "product_shipped",
+      "delivery_confirmed",
+      "otp_verified",
+      "tracking_available",
+      "payment_method"
+    ]
+  },
+  "target": "chargeback_occurred",
+  "selected_threshold": 0.5,
+  "comparison_results": {
+    "Logistic Regression": {
+      "val_precision": 0.6502598593702231,
+      "val_recall": 0.5672,
+      "val_f1": 0.6058965959265062,
+      "val_roc_auc": 0.6743507911111111,
+      "val_pr_auc": 0.6854271969809074
+    },
+    "Random Forest": {
+      "val_precision": 0.6449573190009484,
+      "val_recall": 0.544,
+      "val_f1": 0.5901923911471141,
+      "val_roc_auc": 0.664725831111111,
+      "val_pr_auc": 0.672991849264182
+    },
+    "XGBoost": {
+      "val_precision": 0.642967542503864,
+      "val_recall": 0.5546666666666666,
+      "val_f1": 0.595561918396564,
+      "val_roc_auc": 0.6640704,
+      "val_pr_auc": 0.6745844682190152
+    }
+  },
+  "test_metrics": {
+    "precision": 0.6477132262051916,
+    "recall": 0.5589333333333333,
+    "f1_score": 0.6000572573718866,
+    "roc_auc": 0.67576448,
+    "pr_auc": 0.6891211318530691,
+    "confusion_matrix": [
+      [
+        2610,
+        1140
+      ],
+      [
+        1654,
+        2096
+      ]
+    ]
+  }
+}

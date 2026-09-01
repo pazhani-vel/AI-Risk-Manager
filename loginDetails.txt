@@ -1,0 +1,49 @@
+
+👑 Admin
+
+┌────────────────────────────┬───────┐
+│ Email                      │ Role  │
+├────────────────────────────┼───────┤
+│ admin@demo-dev.example.com │ ADMIN │
+└────────────────────────────┴───────┘
+
+🏪 Merchants
+
+┌──────────────────────────────────────┬──────────┐
+│ Email                                │ Role     │
+├──────────────────────────────────────┼──────────┤
+│ admin@northpeak-dev.example.com      │ MERCHANT │
+│ admin@velvetlane-dev.example.com     │ MERCHANT │
+│ admin@summitsupplies-dev.example.com │ MERCHANT │
+└──────────────────────────────────────┴──────────┘
+
+📊 Risk Analysts (8 accounts)
+
+┌────────────────────────────────┬──────────────┐
+│ Email                          │ Role         │
+├────────────────────────────────┼──────────────┤
+│ analyst01@demo-dev.example.com │ RISK_ANALYST │
+│ analyst02@demo-dev.example.com │ RISK_ANALYST │
+│ analyst03@demo-dev.example.com │ RISK_ANALYST │
+│ analyst04@demo-dev.example.com │ RISK_ANALYST │
+│ analyst05@demo-dev.example.com │ RISK_ANALYST │
+│ analyst06@demo-dev.example.com │ RISK_ANALYST │
+│ analyst07@demo-dev.example.com │ RISK_ANALYST │
+│ analyst08@demo-dev.example.com │ RISK_ANALYST │
+└────────────────────────────────┴──────────────┘
+
+🔍 Reviewers (7 accounts)
+
+┌─────────────────────────────────┬──────────┐
+│ Email                           │ Role     │
+├─────────────────────────────────┼──────────┤
+│ reviewer01@demo-dev.example.com │ REVIEWER │
+│ reviewer02@demo-dev.example.com │ REVIEWER │
+│ reviewer03@demo-dev.example.com │ REVIEWER │
+│ reviewer04@demo-dev.example.com │ REVIEWER │
+│ reviewer05@demo-dev.example.com │ REVIEWER │
+│ reviewer06@demo-dev.example.com │ REVIEWER │
+│ reviewer07@demo-dev.example.com │ REVIEWER │
+└────────────────────────────────┴───────────┘
+
+Password - DemoPass123!
