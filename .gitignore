@@ -77,3 +77,12 @@ Thumbs.db
 *.tmp
 *.temp
 *.swp
+
+# Agent instructions
+AGENTS.md
+
+# Login details / credentials
+loginDetails.txt
+
+PROJECT_SPEC.md
+README.md
